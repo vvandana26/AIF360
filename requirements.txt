@@ -5,7 +5,7 @@ ipykernel
 ipython
 ipywidgets
 tqdm
-numpy>=1.14,<1.16
+numpy
 matplotlib
 pandas>=0.24
 pytest>=3.5.0
@@ -15,6 +15,6 @@ cvxpy>=1.0
 numba
 tensorflow==1.1.0
 networkx==1.11
-BlackBoxAuditing;python_version>="3"
-Orange3>=3.3.5,<=3.7.1;python_version>="3"
+BlackBoxAuditing
+Orange3>=3.3.5,<=3.7.1
 lime
