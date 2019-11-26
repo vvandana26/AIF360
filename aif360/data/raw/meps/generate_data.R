@@ -32,7 +32,7 @@ convert <- function(ssp_file, csv_file) {
     write.csv(df, file=csv_file, row.names=FALSE, quote=FALSE)
 }
 
-for (dataset in c("h181", "h192")) {
+for (dataset in c("h181", "h192", "h201")) {
     zip_file <- paste(dataset, "ssp.zip", sep="")
     ssp_file <- paste(dataset, "ssp", sep=".")
     csv_file <- paste(dataset, "csv", sep=".")
